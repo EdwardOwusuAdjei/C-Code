@@ -69,7 +69,7 @@ int main(int argc , char *argv[])
 		printf("Exit output\n");
 		exit(4);
 	}
-	//fsync(outputfd);
+	fsync(outputfd);
 	exit(EXIT_SUCCESS);
 	
 	
